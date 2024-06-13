@@ -1,4 +1,4 @@
-about me
+[about me](https://www.douban.com/people/ricoeur)
 曾经很喜欢写about me，但现在一点都不想写。
 原先的互联网是友善的，或者说至少是没有那么大攻击性的
 写about me，是希望交流，希望扩充认知视野
