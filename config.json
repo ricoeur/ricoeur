@@ -6,6 +6,6 @@
     "bottomText":"人生看得几清明",
     "urlMode":"issue",
     "singlePage":["about"],
-    "yearColorList":[ "#f4fcfc","#141c24","#f9fbe7", "#f1f8e9"],
+    "yearColorList":["#f9fbe7", "#f1f8e9"],
     "startSite":"05/27/2024"
 }
