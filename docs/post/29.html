@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://avatars.githubusercontent.com/u/13033076?v=4"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -119,8 +119,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>让我简要地总结一下。孔子的思想大概就像我刚才讲的这样，是“制礼”“正名”“求仁”，而且把“仁爱之心”的来源和基础，一直追溯到孝悌这样的自然感情那里去。但是，早期儒家这个方案是把希望过多地寄托在人的内心感情和内心自觉上，所以，它实际上带有理想主义色彩有时候不太管用。正是因为这样，孔子之后才分出了两支不同的儒学派别:一支强调道德，一支强调制度。前面一支是以孟子为代表的，把这个道德论的儒学越放越大，更加追求“求其放心”这样的一个路数，他认为人性是善的，所以，极力地开发人的内心世界。可是，事实上真正在古代社会和政治中有效的，是后面一支，就是苟子和他的学生韩非、李斯等人发展出来的那一条路数，基本上预设人性是恶的。大家知道，一般法律都预设人性是恶的只有人性是恶的，才需要建立一整套法律秩序，从外在力量来规范人的行为。而这一套思想体系因为预设了人的本性是恶的，所以，它的推动是靠严密的行政管理、法律制度的控制。p149</p>
 </blockquote></div>
 <div style="font-size:small;margin-top:8px;float:right;">人生看得几清明</div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://ricoeur.github.io/ricoeur"> 花月痕 </a>
 <p>
@@ -175,6 +177,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
