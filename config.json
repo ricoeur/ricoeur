@@ -8,5 +8,6 @@
     "singlePage":["about"],
     "yearColorList":["#546e7a", "#455a64","#37474f","#263238"],
     "needComment":0,
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "startSite":"05/27/2024"
 }
